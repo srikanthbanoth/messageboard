@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    /* background-color: black; */
+}
+.title{
+    text-align: center;
+    background-color: #18A6D5;
+    color: #F7F7F7;
+    padding: 5px;
+}
+.source{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: gainsboro;
+    padding: 10px;
+}
+.message{
+    background-color:#2D2D2D;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.message p{
+    margin-bottom: 2px;
+}
+.message .user{
+    color: #7EBA6C;
+}
+.message .text{
+    /* color: yellow; */
+    /* color: #C27C9F; */
+    color: white;
+}
+.message .date{
+    color: #F8C555;
+}
+.addbutton{
+    text-align: center;
+}
+.addbutton button{
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #7EBA6C;
+    color: white;
+    font-weight: bold;
+    outline: none;
+    border: none;
+}
+.addbutton a{
+    text-decoration: none;
+    color: white;
+}
+.header form{
+    width: 50%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+}
+form input{
+    padding: 5px;
+    margin-bottom: 5px;
+    outline: none;
+}
+#button{
+    background-color: #7EBA6C;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: cursive;
+    font-weight: bold;
+}
